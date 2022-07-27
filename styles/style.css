@@ -264,6 +264,20 @@ nav {
           justify-content: space-between;
 }
 
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 1200px;
