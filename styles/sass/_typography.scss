@@ -23,11 +23,18 @@ h2,
     font-family: $headingFont;
 }
 
+.driveSolo {
+    color: $secondaryTextColor;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
 h1 {
     text-transform: uppercase;
     line-height: 97px;
     letter-spacing: 1px;
     @include fontSize(116.2);
+    color: $iconColor;
 }
 
 h1 span {

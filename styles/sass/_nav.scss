@@ -8,4 +8,15 @@ nav {
 nav ul {
     display: flex;
     font-family: $navFont;
+    // border: 5px solid green;
+    padding-left: 0;
 }
+
+.navWrapper nav li {
+    padding-right: 35px;
+    
+    a {
+        text-transform: uppercase;
+    }
+}
+
