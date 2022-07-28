@@ -236,10 +236,6 @@ html {
   overflow: hidden;
 }
 
-* {
-  border: solid 4px greenyellow;
-}
-
 h1,
 h2,
 .driveSolo {
@@ -277,6 +273,11 @@ li {
 
 a {
   text-decoration: none;
+}
+
+header {
+  background-image: url(../assets/image-1@2x.png);
+  background-size: cover;
 }
 
 .wrapper {
