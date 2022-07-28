@@ -14,6 +14,8 @@ $bodyFooterFont: 'Roboto', sans-serif;
 //     border: solid 4px greenyellow;
 // }
 
+// Setting General Styles for all words/letters on the page
+
 
 h1,
 h2,
@@ -22,10 +24,26 @@ h2,
 }
 
 h1 {
+    text-transform: uppercase;
     line-height: 97px;
     letter-spacing: 1px;
+    @include fontSize(116.2);
+}
+
+h1 span {
+    display: block;
+    line-height: 40px;
 }
 
 h2 {
     line-height: 43px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
 }
