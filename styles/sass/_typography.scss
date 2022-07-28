@@ -27,6 +27,7 @@ h2,
     color: $secondaryTextColor;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    @include fontSize(30);
 }
 
 h1 {

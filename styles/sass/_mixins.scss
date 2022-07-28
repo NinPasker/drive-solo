@@ -4,3 +4,19 @@
     font-size: $sizeValue * 1px;
     font-size: ($sizeValue / 20) * 1rem;
 }
+
+// breakpoint mixin
+
+@mixin breakpoint($size) {
+    @if $size ==large {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    }
+
+    @else if $size ==small {
+        @media (max-width: 500px) {
+            @content;
+        }
+    }
+}
